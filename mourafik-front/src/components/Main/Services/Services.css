@@ -1,0 +1,79 @@
+:root {
+  --main-blue: rgba(0, 111, 255, 100%);
+  --main-dark: #2f2f2f;
+  --main-color: #ffffff;
+  --main-lgiht: #e9edf5;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start1;
+  margin: 10px 10em;
+  border: 1px solid red;
+  padding: 2% 10px;
+  gap: 20px;
+}
+
+.services-container h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: var(--main-dark);
+  margin-bottom: 20px;
+  line-height: 1em;
+}
+
+.services-container .services-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.services-cards .service-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 25%;
+  background-color: var(--main-lgiht);
+  border-radius: 15px;
+  padding: 15px 30px;
+  gap: 10px;
+  color: var(--main-dark);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.services-cards .service-card:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  background-color: rgba(0, 111, 255, 0.5);
+  color: var(--main-lgiht); /* Change background color on hover */
+}
+
+.services-cards .service-card p {
+  font-size: 1.5em;
+}
+
+.services-cards .service-card h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.services-cards .service-card button {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.services-cards .service-card button {
+  /* Your existing styles for the button */
+  transition: background-color 0.3s, border-radius 0.3s; /* Add transition for smooth effect */
+}
+
+.services-cards .service-card:hover button {
+  background-color: var(--main-blue);
+  border-radius: 25px; /* Change the border-radius for a different shape on hover */
+  text-decoration: none;
+  padding: 10px 10px;
+}
+
+.service-card .health-icon {
+  font-size: 3em;
+}

@@ -1,0 +1,21 @@
+:root {
+  --main-blue: rgba(0, 111, 255, 100%);
+  --main-dark: #2f2f2f;
+  --main-color: #ffffff;
+  --main-lgiht: #e9edf5;
+}
+
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start1;
+  margin: 10px 10em;
+  border: 1px solid red;
+  padding: 2% 10px;
+  gap: 20px;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: space-around;
+}

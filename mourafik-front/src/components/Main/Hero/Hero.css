@@ -1,0 +1,61 @@
+:root {
+  --main-blue: rgba(0, 111, 255, 100%);
+  --main-dark: #2f2f2f;
+  --main-color: #ffffff;
+}
+
+.landing-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 10em;
+  border: 1px solid red;
+  padding: 2% 0px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.description h1 {
+  font-size: 6em;
+  font-weight: bold;
+  color: var(--main-dark);
+  margin-bottom: 20px;
+  line-height: 1em;
+}
+
+.description p {
+  color: var(--main-dark);
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.landing-container button {
+  background-color: var(--main-blue);
+  color: var(--main-color);
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-weight: bold;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.landing-container button .icon {
+  font-size: 1.5em;
+}
+
+.illustrations {
+  position: relative;
+  overflow: hidden;
+}
+.watch {
+  position: absolute;
+  top: -9%;
+  left: 60%;
+}
